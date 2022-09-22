@@ -93,6 +93,66 @@
 // - retornará o valor somado acrescido de 10%.
 // DICA: para isso, você precisará percorrer tanto o objeto da chave `food` quanto o objeto da chave `drink`.
 
-const createMenu = () => {};
+// const menu = { food: { coxinha: 3.9, sopa: 9.9 }, drink: { agua: 3.9, cerveja: 6.9 } };
 
+function getValueByKey(object, key) {
+  return object[key];
+}
+// Fonte: Função getValueByKey encontrada em:
+// https://stackoverflow.com/questions/56844536/how-to-get-javascript-objects-value-with-key
+const createMenu = (menu) => {
+  const object = {
+    fetchMenu: () => menu,
+    consumption: [],
+    order: (str) => { object.consumption.push(str); },
+    pay: () => {
+      const card = object.fetchMenu();
+      const allMenuWithPrice = Object.assign(Object.values(card)[0], Object.values(card)[1]);
+      const allMenu = Object.keys(Object.values(card)[0]);
+      const consumptionAll = object.consumption;
+      let sum = 0;
+      for (let index = 0; index < consumptionAll.length; index += 1) {
+        if (allMenu.indexOf(consumptionAll[index]) > -1) {
+          sum += getValueByKey(allMenuWithPrice, consumptionAll[index]);
+        }
+      }
+      return sum;
+    },
+  };
+  return object;
+};
+
+// const objetoRetornado = createMenu(menu);
+// const card = objetoRetornado.fetchMenu();
+
+// PEDIDOS
+// objetoRetornado.order('coxinha');
+// objetoRetornado.order('agua');
+// objetoRetornado.order('coxinha');
+
+// const allMenuWithPrice = Object.assign(Object.values(card)[0], Object.values(card)[1]);
+// const allMenu = Object.keys(Object.values(card)[0]);
+// const consumptionAll = objetoRetornado.consumption;
+// console.log(allMenu);
+// console.log(consumptionAll);
+
+// >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+// console.log('consumo:', consumptionAll);
+// console.log('menu:', allMenu);
+// function newFunction() {
+//   let sum = 0;
+
+//   for (let index = 0; index < consumptionAll.length; index += 1) {
+//     if (allMenu.indexOf(consumptionAll[index]) > -1) {
+//       sum += getValueByKey(allMenuWithPrice, consumptionAll[index]);
+//     }
+//   }
+//   return sum;
+// }
+// >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+// console.log(newFunction());
+// const foods = Object.values(card)[0];
+// const drinks = Object.values(card)[1];
+// const arrayFoodsKeys = Object.keys(foods);
+// const arrayDrinksKeys = Object.keys(drinks);
 module.exports = createMenu;
