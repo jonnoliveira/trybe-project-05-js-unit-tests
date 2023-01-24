@@ -57,7 +57,7 @@ Testar nosso aplicativo é extremamente importante para garantir o melhor funcio
 
 ## 100% :heavy_check_mark:
 
-![Project-JS-Unit-Tests-Grade]()
+![Project-JS-Unit-Tests-Grade](https://github.com/jonnoliveira/trybe-project-05-js-unit-tests/blob/main/image/js-units-tests-grade.png)
 
 </details> 
  
