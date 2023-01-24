@@ -47,8 +47,10 @@ Testar nosso aplicativo é extremamente importante para garantir o melhor funcio
 
 # 
 
-<details>
+</details>
  
+<details>
+
 <summary>
 
 ## 3- Nota do Projeto
