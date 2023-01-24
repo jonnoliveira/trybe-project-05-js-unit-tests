@@ -1,13 +1,65 @@
-# :construction: README customizado em construção ! :construction:
-<!-- Olá, Tryber!
-Esse é apenas um arquivo inicial para o README do seu projeto no qual você pode customizar e reutilizar todas as vezes que for executar o trybe-publisher.
+# PROJETO 05 - JAVASCRIPT UNIT TESTS :computer:
 
-Para deixá-lo com a sua cara, basta alterar o seguinte arquivo da sua máquina: ~/.student-repo-publisher/custom/_NEW_README.md
+## Esse projeto pertence ao módulo de `fundamentos` do curso da [Trybe](https://www.betrybe.com/) :green_heart:
+ 
+<details>
+ 
+<summary>
+  
+## 1- Resumo
+  
+</summary>
 
-É essencial que você preencha esse documento por conta própria, ok?
-Não deixe de usar nossas dicas de escrita de README de projetos, e deixe sua criatividade brilhar!
-:warning: IMPORTANTE: você precisa deixar nítido:
-- quais arquivos/pastas foram desenvolvidos por você; 
-- quais arquivos/pastas foram desenvolvidos por outra pessoa estudante;
-- quais arquivos/pastas foram desenvolvidos pela Trybe.
--->
+Testar nosso aplicativo é extremamente importante para garantir o melhor funcionamento e experiência do usuário. Neste projeto realizei testes unitários utilizando o módulo Jest do NodeJS para verificar o correto funcionamento das funções existentes e das novas funções implementadas. Veja mais abaixo!
+
+  
+</details>
+
+#
+
+<details>
+ 
+<summary>
+ 
+## 2- Requisitos
+
+</summary>
+
+### I. Implemente a função average
+
+### II. Implemente os casos de teste para a função numbers
+
+### III. Implemente a função vqv
+
+### IV. Implemente os casos de teste para a função circle
+
+### V. Implemente a função createStudent
+
+### VI. Implemente os casos de teste para a função productDetails
+
+### VII. Implemente as funções calculator e arrayGenerator
+
+### VIII. Implemente a função myCounter
+
+### IX. Implemente os casos de teste para a função getCharacter
+
+### X. Implemente a função createMenu, bem como seus casos de teste
+
+# 
+
+<details>
+ 
+<summary>
+
+## 3- Nota do Projeto
+ 
+</summary>
+
+## 100% :heavy_check_mark:
+
+![Project-JS-Unit-Tests-Grade]()
+
+</details> 
+ 
+# 
+
