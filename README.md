@@ -33,27 +33,25 @@ Testar nosso aplicativo é extremamente importante para garantir o melhor funcio
 
 </summary>
 
-### I. Implemente a função average
+* I. Implemente a função average
 
-### II. Implemente os casos de teste para a função numbers
+* II. Implemente os casos de teste para a função numbers
 
-### III. Implemente a função vqv
+* III. Implemente a função vqv
 
-### IV. Implemente os casos de teste para a função circle
+* IV. Implemente os casos de teste para a função circle
 
-### V. Implemente a função createStudent
+* V. Implemente a função createStudent
 
-### VI. Implemente os casos de teste para a função productDetails
+* VI. Implemente os casos de teste para a função productDetails
 
-### VII. Implemente as funções calculator e arrayGenerator
+* VII. Implemente as funções calculator e arrayGenerator
 
-### VIII. Implemente a função myCounter
+* VIII. Implemente a função myCounter
 
-### IX. Implemente os casos de teste para a função getCharacter
+* IX. Implemente os casos de teste para a função getCharacter
 
-### X. Implemente a função createMenu, bem como seus casos de teste
-
-# 
+* X. Implemente a função createMenu, bem como seus casos de teste
 
 </details>
 
